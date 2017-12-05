@@ -7,8 +7,11 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/template.css" media="screen"> 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen"> 
 
+    <meta name="description" content="{{ page.description | default: '' }}" />
+    
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@417_72ki" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ page.title | default: site.github.repository_name }}" />
     <meta name="twitter:description" content="{{ page.description | default: '' }}" />
     <meta name="twitter:image" content="{{ page.image }}" />
